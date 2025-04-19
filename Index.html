@@ -2,49 +2,122 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hey, I'm Timothy Achu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
       margin: 0;
       padding: 0;
     }
+
     header {
-      background: #333;
+      background-color: #282c34;
       color: white;
-      padding: 1rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      background: white;
-      padding: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
     }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #61dafb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+    }
+
+    .project {
+      margin-bottom: 1rem;
+    }
+
+    .project h3 {
+      margin: 0.3rem 0;
+    }
+
+    .project a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
     footer {
       text-align: center;
-      margin: 2rem 0;
-      color: #888;
-    }
-    a {
-      color: #007acc;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Welcome to My GitHub Page</h1>
+    <h1>Your Name</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
-  <main>
-    <p>Hello! I'm Timothy Achu.</p>
-    <p>AI Engineer/Data Scientist.</p>
-  </main>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Timothy Achu.
+      AI Engineer and Data Analyst.
+      I love building cool things and solving real-world problems.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>🔧 Project One</h3>
+      <p>A brief description of what it does and what tech was used.</p>
+      <p><a href="https://github.com/yourusername/project-one" target="_blank">View on GitHub</a></p>
+    </div>
+
+    <div class="project">
+      <h3>🎨 Project Two</h3>
+      <p>Description and what you're proud of in this one.</p>
+      <p><a href="https://github.com/yourusername/project-two" target="_blank">View on GitHub</a></p>
+    </div>
+
+    <!-- Add more projects as needed -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email me at: <achu.timothy@gmail.com</strong></p>
+    <p>Or find me on <a href="https://Theach.github.io" target="_blank">GitHub</a></p>
+  </section>
+
   <footer>
-    © 2025 Your Name • <a href="https://Theach.github.io" target="_blank">GitHub</a>
+    © 2025 Timothy Achu • Built with ❤️ and HTML/CSS
   </footer>
+
 </body>
 </html>
